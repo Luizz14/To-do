@@ -1,0 +1,23 @@
+.add-button {
+    background-color: rgb(72, 234, 255);
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 40px;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(231, 235, 238);
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
+    transition: background-color 0.5s;
+}
+
+.add-button:active {
+    background-color: rgb(28, 105, 173); 
+}
+
+.add-button:hover {
+    transition: background-color 0.5s;
+    background-color: rgb(28, 105, 173);
+}
